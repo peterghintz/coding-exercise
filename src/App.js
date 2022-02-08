@@ -1,23 +1,12 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
 
-function App() {
+const dataSource = 'https://jsonplaceholder.typicode.com/users';
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <p>Fetch and display a list of users here that shows name, email and company</p>
     </div>
   );
 }

@@ -1,0 +1,13 @@
+.cardWrapper {
+  display: block;
+  margin: 1rem;
+}
+
+.card-heading {
+  font-size: 32px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 0;
+  margin-right: 0;
+}
